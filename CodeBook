@@ -1,0 +1,176 @@
+                    DATA DICTIONARY - gettingAndCleaningData
+ 
+activity
+    Activity Type
+            LAYING
+            SITTING
+            STANDING
+            WALKING
+            WALKING_DOWNSTAIRS
+            WALKING_UPSTAIRS
+        
+subject
+    Subject number
+            1 .. 30
+
+tBodyAcc-mean()-X
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+    time domain signals for Body Acceleration (mean values)
+
+tBodyAcc-std()-X
+tBodyAcc-std()-Y
+tBodyAcc-std()-Z
+    time domain signals for Body Acceleration (standard deviation values)
+
+tGravityAcc-mean()-X
+tGravityAcc-mean()-Y
+tGravityAcc-mean()-Z
+    time domain signals for Gravity Acceleration (mean values)
+
+tGravityAcc-std()-X
+tGravityAcc-std()-Y
+tGravityAcc-std()-Z
+    time domain signals for Gravity Acceleration (standard deviation values)
+
+tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Z
+    Jerk signals for Body Acceleration (mean values)
+
+tBodyAccJerk-std()-X
+tBodyAccJerk-std()-Y
+tBodyAccJerk-std()-Z
+    Jerk signals for Body Acceleration (standard deviation values)
+
+tBodyGyro-mean()-X
+tBodyGyro-mean()-Y
+tBodyGyro-mean()-Z
+    time domain signals for body gyroscope (mean values)
+
+tBodyGyro-std()-X
+tBodyGyro-std()-Y
+tBodyGyro-std()-Z
+    time domain signals for body gyroscope (standard deviation values)
+
+tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z
+    Jerk signals for body gyroscope (mean values)
+
+tBodyGyroJerk-std()-X
+tBodyGyroJerk-std()-Y
+tBodyGyroJerk-std()-Z
+    Jerk signals for body gyroscope (standard deviation values)
+
+tBodyAccMag-mean()
+    time domain signals magnitude for Body Acceleration (mean values)
+
+tBodyAccMag-std()
+    time domain signals magnitude for Body Acceleration (standard deviation values)
+
+tGravityAccMag-mean()
+    time domain signals magnitude for Gravity Acceleration (mean values)
+
+tGravityAccMag-std()
+    time domain signals magnitude for Gravity Acceleration (standard deviation values)
+
+tBodyAccJerkMag-mean()
+    Jerk signals magnitude for Body Acceleration (mean values)
+
+tBodyAccJerkMag-std()
+    Jerk signals magnitude for Body Acceleration (standard deviation values)
+
+tBodyGyroMag-mean()
+    time domain signals magnitude for body gyroscope (mean values)
+
+tBodyGyroMag-std()
+    time domain signals magnitude for body gyroscope (standard deviation values)
+
+tBodyGyroJerkMag-mean()
+    Jerk signals magnitude for body gyroscope (mean values)
+
+tBodyGyroJerkMag-std()
+    Jerk signals magnitude for body gyroscope (standard deviation values)
+
+fBodyAcc-mean()-X
+fBodyAcc-mean()-Y
+fBodyAcc-mean()-Z
+    Fournier transformed signals for Body Acceleration (mean values)
+
+fBodyAcc-std()-X
+fBodyAcc-std()-Y
+fBodyAcc-std()-Z
+    Fournier transformed signals for Body Acceleration (standard deviation values)
+
+fBodyAcc-meanFreq()-X
+fBodyAcc-meanFreq()-Y
+fBodyAcc-meanFreq()-Z
+    Fournier transformed signals for Body Acceleration (Weighted average of the frequency components to obtain a mean frequency)
+
+fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z
+    Fournier transformed Jerk signals for Body Acceleration (mean values)
+
+fBodyAccJerk-std()-X
+fBodyAccJerk-std()-Y
+fBodyAccJerk-std()-Z
+    Fournier transformed Jerk signals for Body Acceleration (standard deviation values)
+
+fBodyAccJerk-meanFreq()-X
+fBodyAccJerk-meanFreq()-Y
+fBodyAccJerk-meanFreq()-Z
+    Fournier transformed Jerk signals for Body Acceleration (Weighted average of the frequency components to obtain a mean frequency)
+
+fBodyGyro-mean()-X
+fBodyGyro-mean()-Y
+fBodyGyro-mean()-Z
+    Fournier transformed signals for body gyroscope (mean values)
+
+fBodyGyro-std()-X
+fBodyGyro-std()-Y
+fBodyGyro-std()-Z
+    Fournier transformed signals for body gyroscope (standard deviation values)
+
+fBodyGyro-meanFreq()-X
+fBodyGyro-meanFreq()-Y
+fBodyGyro-meanFreq()-Z
+    Fournier transformed signals for body gyroscope (Weighted average of the frequency components to obtain a mean frequency)
+
+fBodyAccMag-mean()
+    Fournier transformed signals magnitude for Body Acceleration (mean values)
+
+fBodyAccMag-std()
+    Fournier transformed signals magnitude for Body Acceleration (standard deviation values)
+
+fBodyAccMag-meanFreq()
+    Fournier transformed signals magnitude for Body Acceleration (Weighted average of the frequency components to obtain a mean frequency)
+
+fBodyBodyAccJerkMag-mean()
+    Fournier transformed Jerk signals magnitude for Body Acceleration (mean values)
+
+fBodyBodyAccJerkMag-std()
+    Fournier transformed Jerk signals magnitude for Body Acceleration (standard deviation values)
+
+fBodyBodyAccJerkMag-meanFreq()
+    Fournier transformed Jerk signals magnitude for Body Acceleration (Weighted average of the frequency components to obtain a mean frequency)
+
+fBodyBodyGyroMag-mean()
+    Fournier transformed signals magnitude for body gyroscope (mean values)
+
+fBodyBodyGyroMag-std()
+    Fournier transformed signals magnitude for body gyroscope (standard deviation values)
+
+fBodyBodyGyroMag-meanFreq()
+    Fournier transformed signals magnitude for body gyroscope (Weighted average of the frequency components to obtain a mean frequency)
+
+fBodyBodyGyroJerkMag-mean()
+    Fournier transformed Jerk signals magnitude for body gyroscope (mean values)
+
+fBodyBodyGyroJerkMag-std()
+    Fournier transformed Jerk signals magnitude for body gyroscope (standard deviation values)
+
+fBodyBodyGyroJerkMag-meanFreq()
+    Fournier transformed Jerk signals magnitude for body gyroscope (Weighted average of the frequency components to obtain a mean frequency)
+
