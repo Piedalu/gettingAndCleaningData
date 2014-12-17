@@ -26,20 +26,23 @@ colnames(test) <- features[,2]
 colnames(trainingSubject) <- "subject"
 colnames(testSubject) <- "subject"
 
+#Adding subject column
 training <- cbind(trainingSubject,training)
 test <- cbind(testSubject,test)
 
+#Replacing activity label
 replacement <- function(x)
 {
   return(activityLabels[activityLabels$V1==x,]$V2)
 }
-
 training["activity"] <- sapply(trainLabels$V1, replacement)
 test["activity"] <- sapply(testLabels$V1, replacement)
 
+#merging both datasets
 completeData <- rbind(training,test) 
 
 ## limit to mean and std datas
 completeDataMS <- cbind(completeData[,c("subject","activity")],completeData[,grep("mean|std",colnames(completeData))])
 
+## group by activity /subject
 completeMean <- aggregate(completeDataMS[,c(3:81)],list(activity=completeDataMS$activity,subject=completeDataMS$subject),mean)
