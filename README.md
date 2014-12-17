@@ -21,8 +21,8 @@ install.packages("dplyr")
 
 Purpose of the script
 =====================
-Load the datasets from train and test directory.
-Merge datas from both datasets and descriptive labels and names. (you can retrieve this datas in completeData)
-Extracts only the measurements on the mean and standard deviation for each measurement. (intermediary datas in completeDataMS)
-Create an independent tidy data set with the average of each variable for each activity and each subject (see completeMean)
+- Load the datasets from train and test directory.
+- Merge datas from both datasets and descriptive labels and names. (you can retrieve this datas in completeData)
+- Extracts only the measurements on the mean and standard deviation for each measurement. (intermediary datas in completeDataMS)
+- Create an independent tidy data set with the average of each variable for each activity and each subject (see completeMean)
 
